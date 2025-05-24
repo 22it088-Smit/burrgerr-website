@@ -1,0 +1,66 @@
+burrrgerr/
+├── package.json
+├── .env
+├── .gitignore
+├── server.js
+├── config/
+│   ├── database.js
+│   └── email.js
+├── models/
+│   ├── User.js
+│   ├── Burger.js
+│   ├── Order.js
+│   ├── Ingredient.js
+│   └── Review.js
+├── middleware/
+│   ├── auth.js
+│   └── validation.js
+├── routes/
+│   ├── auth.js
+│   ├── burgers.js
+│   ├── orders.js
+│   ├── admin.js
+│   └── reviews.js
+├── controllers/
+│   ├── authController.js
+│   ├── burgerController.js
+│   ├── orderController.js
+│   ├── adminController.js
+│   └── reviewController.js
+├── public/
+│   ├── css/
+│   │   ├── style.css
+│   │   ├── admin.css
+│   │   └── responsive.css
+│   ├── js/
+│   │   ├── main.js
+│   │   ├── cart.js
+│   │   ├── burger-builder.js
+│   │   ├── order-tracking.js
+│   │   └── admin.js
+│   └── images/
+│       ├── burgers/
+│       └── ingredients/
+└── views/
+    ├── layouts/
+    │   └── main.ejs
+    ├── partials/
+    │   ├── header.ejs
+    │   ├── footer.ejs
+    │   └── navbar.ejs
+    ├── auth/
+    │   ├── login.ejs
+    │   └── register.ejs
+    ├── user/
+    │   ├── home.ejs
+    │   ├── menu.ejs
+    │   ├── burger-builder.ejs
+    │   ├── cart.ejs
+    │   ├── checkout.ejs
+    │   ├── order-history.ejs
+    │   └── order-tracking.ejs
+    └── admin/
+        ├── dashboard.ejs
+        ├── orders.ejs
+        ├── inventory.ejs
+        └── analytics.ejs
